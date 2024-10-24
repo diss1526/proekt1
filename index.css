@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+}
+
+body{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    background:url('https://img.freepik.com/free-photo/front-view-sports-stadium-with-lights-background_1409-4750.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: url('https://pics.clipartpng.com/Soccer_Ball_PNG_Clip_Art-1361.png') , auto;
+}
+
+
+h1{
+    
+    position: relative;
+    color: white;
+    animation: logoa 1.2s 1;
+}
+
+@keyframes logoa {
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.menu{
+    position: relative;
+    animation: menuu 1.5s 1;
+}
+
+@keyframes menuu {
+    0%{
+        opacity: 0%;
+    }
+    80%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.news{
+    position: relative;
+    animation: news 1.5s 1;
+}
+
+@keyframes news {
+    0%{
+        opacity: 0%;
+    }
+    85%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.matches-live{
+    position: relative;
+    animation: matches-life 1.5s 1;
+}
+
+@keyframes matches-life {
+    0%{
+        opacity: 0%;
+    }
+    98%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    user-select: none;
+}
+
+nav a{
+    margin-top: 20px;
+    text-decoration: none;
+    /* background: -webkit-linear-gradient(147deg, #04028a 0%, #f2f2f2 54%); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; */
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius:20px ;
+    font-size: 23px;
+    transform: scale(1.5 1s);
+}
+
+.icon{
+    position: relative;
+    padding: 4px;
+    top:  9px;
+    width:25px;
+
+}
+
+.ball{
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;    
+    width: 80px;
+    animation: ballmove 5s 1;
+    transition: rotate 2s(360deg);
+
+}
+
+@keyframes ballmove {
+    0%{
+        rotate:1800deg ;
+    }
+    100%{
+        left: 100%;
+    }
+    
+}
+
+.log{
+        position: relative;
+        animation: log 2.4s 1;
+}
+
+@keyframes log {
+    0%{
+        opacity: 0%;
+    }
+    98%{
+        opacity: 0%;
+    }
+    99%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.reg{
+    position: relative;
+    animation: reg 2.7s 1;
+}
+
+
+@keyframes reg {
+    0%{
+        opacity: 0%;
+    }
+    98%{
+        opacity: 0%;
+    }
+    99%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.play{
+    position: relative;
+    animation: play 1.7s 1;
+}
+
+@keyframes play {
+    0%{
+        opacity: 0%;
+    }
+    98%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.cr7{
+    border: 2px solid white ;
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    color: white;
+}
+
+.cristiano{
+    border-radius: 45px;
+    width: 90%;
+    height:70% ;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.crr{
+    text-shadow: 0px 0px 10px #5cfaff,
+    0px 0px 20px #5cfaff,
+    0px 0px 40px #5cfaff,
+    0px 0px 80px #5cfaff;
+    color: #5cfaff;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+
+.cristiano2{
+    border-radius: 45px;
+    width: 90%;
+    height:70%;
+    padding: 10px;
+    object-fit: cover;
+}
+.attack{
+    width: 85%;
+    margin-top: 30px;
+    gap: 50px;
+    justify-content: center;
+    display: flex;
+    margin-left: 7.5%;
+    flex-wrap: wrap;
+    user-select: none;
+}
+.defend{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.zashita{
+    /* gap: 50px; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    user-select: none;
+}
+
+.gk{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cr77{
+    border: 2px solid white ;
+    gap: 100px;
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    color: white; 
+}
+
+.logo{
+    position: relative;
+    top: 10px;
+    width: 70px;
+}
+
+.cr{
+    text-shadow: 0px 0px 10px yellow,
+    0px 0px 20px yellow,
+    0px 0px 40px yellow,
+    0px 0px 80px yellow;
+    color: yellow;
+    text-align: center;
+}
+
+.def{
+    text-shadow: 0px 0px 10px red,
+    0px 0px 20px red,
+    0px 0px 40px red,
+    0px 0px 80px red;
+    color: red;
+    text-align: center;
+}
+
+.gk1{
+    text-shadow: 0px 0px 10px green,
+    0px 0px 20px green,
+    0px 0px 40px green,
+    0px 0px 80px green;
+    color: green;
+    text-align: center;
+}
